@@ -8,4 +8,4 @@ from fastapi import FastAPI
 app = FastAPI()
 @app.get("/")
 async def simple_api():
-    return{"message" : "welcome to fast api"}
+    return{"message" : "welcome "}
